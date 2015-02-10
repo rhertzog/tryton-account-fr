@@ -1252,16 +1252,34 @@ this repository contains the full copyright notices and license terms. -->
         </record>
 
         <record model="account.tax.template" id="tva_vente_intracommunautaire_0">
-            <field name="name">T.V.A. Vente Intracommunautaire 0%</field>
-            <field name="description">T.V.A. 0%</field>
+            <field name="name">Exonération de TVA sur ventes intracommunautaires de biens</field>
+            <field name="description">Autoliquidation de la TVA</field>
             <field name="group" ref="group_tva_vente"/>
             <field name="rate" eval="Decimal('0')"/>
             <field name="type">percentage</field>
-            <field name="invoice_account" ref="4452"/>
-            <field name="credit_note_account" ref="4452"/>
-            <field name="invoice_tax_code" ref="tax_code_0043"/>
-            <field name="credit_note_tax_code" ref="tax_code_0043"/>
-            <field name="credit_note_tax_sign" eval="Decimal('-1')"/>
+            <field name="invoice_account" ref="44571"/>
+            <field name="credit_note_account" ref="44571"/>
+            <field name="invoice_base_code" ref="tax_code_0034"/>
+            <field name="invoice_tax_code" eval="None"/>
+            <field name="credit_note_base_code" ref="tax_code_0039"/>
+            <field name="credit_note_tax_code" eval="None"/>
+            <field name="credit_note_tax_sign" eval="None"/>
+            <field name="account" ref="root"/>
+        </record>
+
+        <record model="account.tax.template" id="tva_vente_intracommunautaire_services_0">
+            <field name="name">Exonération de TVA sur ventes intracommunautaires de services</field>
+            <field name="description">Autoliquidation de la TVA</field>
+            <field name="group" ref="group_tva_vente"/>
+            <field name="rate" eval="Decimal('0')"/>
+            <field name="type">percentage</field>
+            <field name="invoice_account" ref="44571"/>
+            <field name="credit_note_account" ref="44571"/>
+            <field name="invoice_base_code" ref="tax_code_0033"/>
+            <field name="invoice_tax_code" eval="None"/>
+            <field name="credit_note_base_code" ref="tax_code_0039"/>
+            <field name="credit_note_tax_code" eval="None"/>
+            <field name="credit_note_tax_sign" eval="None"/>
             <field name="account" ref="root"/>
         </record>
 
@@ -1830,15 +1848,81 @@ this repository contains the full copyright notices and license terms. -->
 
         <record model="account.tax.rule.template"
             id="tax_rule_ventes_intracommunautaires_exonere">
-            <field name="name">Ventes intracommunautaires exonéré</field>
+            <field name="name">Ventes intracommunautaires exonérées</field>
             <field name="kind">sale</field>
             <field name="account" ref="root"/>
         </record>
         <record model="account.tax.rule.line.template"
             id="tax_rule_ventes_intracommunautaires_5">
+            <!-- The id ending with "_5" instead of "_0" is a typo that we
+                 keep forward because we don't want to duplicate the line -->
             <field name="rule" ref="tax_rule_ventes_intracommunautaires_exonere"/>
             <field name="group" ref="group_tva_vente"/>
+            <field name="origin_tax" ref="tva_vente_taux_normal"/>
             <field name="tax" ref="tva_vente_intracommunautaire_0"/>
+        </record>
+        <record model="account.tax.rule.line.template"
+            id="tax_rule_ventes_intracommunautaires_0_tx_intermediaire">
+            <field name="rule" ref="tax_rule_ventes_intracommunautaires_exonere"/>
+            <field name="group" ref="group_tva_vente"/>
+            <field name="origin_tax" ref="tva_vente_taux_intermediaire"/>
+            <field name="tax" ref="tva_vente_intracommunautaire_0"/>
+        </record>
+        <record model="account.tax.rule.line.template"
+            id="tax_rule_ventes_intracommunautaires_0_tx_5_5">
+            <field name="rule" ref="tax_rule_ventes_intracommunautaires_exonere"/>
+            <field name="group" ref="group_tva_vente"/>
+            <field name="origin_tax" ref="tva_vente_5_5"/>
+            <field name="tax" ref="tva_vente_intracommunautaire_0"/>
+        </record>
+        <record model="account.tax.rule.line.template"
+            id="tax_rule_ventes_intracommunautaires_0_tx_8_5">
+            <field name="rule" ref="tax_rule_ventes_intracommunautaires_exonere"/>
+            <field name="group" ref="group_tva_vente"/>
+            <field name="origin_tax" ref="tva_vente_8_5"/>
+            <field name="tax" ref="tva_vente_intracommunautaire_0"/>
+        </record>
+        <record model="account.tax.rule.line.template"
+            id="tax_rule_ventes_intracommunautaires_0_tx_2_1">
+            <field name="rule" ref="tax_rule_ventes_intracommunautaires_exonere"/>
+            <field name="group" ref="group_tva_vente"/>
+            <field name="origin_tax" ref="tva_vente_2_1"/>
+            <field name="tax" ref="tva_vente_intracommunautaire_0"/>
+        </record>
+        <record model="account.tax.rule.line.template"
+            id="tax_rule_ventes_intracommunautaires_services_0">
+            <field name="rule" ref="tax_rule_ventes_intracommunautaires_exonere"/>
+            <field name="group" ref="group_tva_vente"/>
+            <field name="origin_tax" ref="tva_vente_services_taux_normal"/>
+            <field name="tax" ref="tva_vente_intracommunautaire_services_0"/>
+        </record>
+        <record model="account.tax.rule.line.template"
+            id="tax_rule_ventes_intracommunautaires_services_0_tx_intermediaire">
+            <field name="rule" ref="tax_rule_ventes_intracommunautaires_exonere"/>
+            <field name="group" ref="group_tva_vente"/>
+            <field name="origin_tax" ref="tva_vente_services_taux_intermediaire"/>
+            <field name="tax" ref="tva_vente_intracommunautaire_services_0"/>
+        </record>
+        <record model="account.tax.rule.line.template"
+            id="tax_rule_ventes_intracommunautaires_services_0_tx_5_5">
+            <field name="rule" ref="tax_rule_ventes_intracommunautaires_exonere"/>
+            <field name="group" ref="group_tva_vente"/>
+            <field name="origin_tax" ref="tva_vente_services_5_5"/>
+            <field name="tax" ref="tva_vente_intracommunautaire_services_0"/>
+        </record>
+        <record model="account.tax.rule.line.template"
+            id="tax_rule_ventes_intracommunautaires_services_0_tx_8_5">
+            <field name="rule" ref="tax_rule_ventes_intracommunautaires_exonere"/>
+            <field name="group" ref="group_tva_vente"/>
+            <field name="origin_tax" ref="tva_vente_services_8_5"/>
+            <field name="tax" ref="tva_vente_intracommunautaire_services_0"/>
+        </record>
+        <record model="account.tax.rule.line.template"
+            id="tax_rule_ventes_intracommunautaires_services_0_tx_2_1">
+            <field name="rule" ref="tax_rule_ventes_intracommunautaires_exonere"/>
+            <field name="group" ref="group_tva_vente"/>
+            <field name="origin_tax" ref="tva_vente_services_2_1"/>
+            <field name="tax" ref="tva_vente_intracommunautaire_services_0"/>
         </record>
 
         <record model="account.tax.rule.template"
