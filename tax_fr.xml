@@ -63,6 +63,13 @@ this repository contains the full copyright notices and license terms. -->
             <field name="account" ref="root"/>
         </record>
 
+        <record model="account.tax.code.template" id="tax_code_0039">
+            <field name="name">Régularisations sur opérations non imposables (notamment rabais et avoirs consentis à des clients)</field>
+            <field name="code">0039</field>
+            <field name="parent" ref="tax_code_non_imposables"/>
+            <field name="account" ref="root"/>
+        </record>
+
         <record model="account.tax.code.template" id="tax_code_0029">
             <field name="name">Livraisons d'électricité, de gaz naturel, de chaleur ou de froid non imposables en France</field>
             <field name="code">0029</field>
@@ -470,6 +477,13 @@ this repository contains the full copyright notices and license terms. -->
         <record model="account.tax.code.template" id="tax_code_0044">
             <field name="name">Achats de prestations de services intracommunautaires (article 283-2 du Code général des impôts)</field>
             <field name="code">0044</field>
+            <field name="parent" ref="tax_code_imposables"/>
+            <field name="account" ref="root"/>
+        </record>
+
+        <record model="account.tax.code.template" id="tax_code_0036">
+            <field name="name">Régularisations sur opérations imposables (notamment rabais, avoir consenti à des clients)</field>
+            <field name="code">0036</field>
             <field name="parent" ref="tax_code_imposables"/>
             <field name="account" ref="root"/>
         </record>
