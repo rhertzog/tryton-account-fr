@@ -826,10 +826,10 @@ this repository contains the full copyright notices and license terms. -->
             <field name="credit_note_account" ref="44571"/>
             <field name="invoice_base_code" ref="tax_code_0207b"/>
             <field name="invoice_tax_code" ref="tax_code_0207"/>
-            <field name="credit_note_base_code" ref="tax_code_0207b"/>
-            <field name="credit_note_base_sign" eval="Decimal('-1')"/>
-            <field name="credit_note_tax_code" ref="tax_code_0207"/>
-            <field name="credit_note_tax_sign" eval="Decimal('-1')"/>
+            <field name="credit_note_base_code" ref="tax_code_0036"/>
+            <field name="credit_note_base_sign" eval="Decimal('1')"/>
+            <field name="credit_note_tax_code" ref="tax_code_0059"/>
+            <field name="credit_note_tax_sign" eval="Decimal('1')"/>
             <field name="account" ref="root"/>
         </record>
 
@@ -844,10 +844,10 @@ this repository contains the full copyright notices and license terms. -->
             <field name="credit_note_account" ref="44571"/>
             <field name="invoice_base_code" ref="tax_code_0206b"/>
             <field name="invoice_tax_code" ref="tax_code_0206"/>
-            <field name="credit_note_base_code" ref="tax_code_0206b"/>
-            <field name="credit_note_base_sign" eval="Decimal('-1')"/>
-            <field name="credit_note_tax_code" ref="tax_code_0206"/>
-            <field name="credit_note_tax_sign" eval="Decimal('-1')"/>
+            <field name="credit_note_base_code" ref="tax_code_0036"/>
+            <field name="credit_note_base_sign" eval="Decimal('1')"/>
+            <field name="credit_note_tax_code" ref="tax_code_0059"/>
+            <field name="credit_note_tax_sign" eval="Decimal('1')"/>
             <field name="account" ref="root"/>
         </record>
 
@@ -879,10 +879,10 @@ this repository contains the full copyright notices and license terms. -->
             <field name="credit_note_account" ref="44571"/>
             <field name="invoice_base_code" ref="tax_code_0207b"/>
             <field name="invoice_tax_code" ref="tax_code_0207"/>
-            <field name="credit_note_base_code" ref="tax_code_0207b"/>
-            <field name="credit_note_base_sign" eval="Decimal('-1')"/>
-            <field name="credit_note_tax_code" ref="tax_code_0207"/>
-            <field name="credit_note_tax_sign" eval="Decimal('-1')"/>
+            <field name="credit_note_base_code" ref="tax_code_0036"/>
+            <field name="credit_note_base_sign" eval="Decimal('1')"/>
+            <field name="credit_note_tax_code" ref="tax_code_0059"/>
+            <field name="credit_note_tax_sign" eval="Decimal('1')"/>
             <field name="account" ref="root"/>
         </record>
 
@@ -897,10 +897,10 @@ this repository contains the full copyright notices and license terms. -->
             <field name="credit_note_account" ref="44571"/>
             <field name="invoice_base_code" ref="tax_code_0206b"/>
             <field name="invoice_tax_code" ref="tax_code_0206"/>
-            <field name="credit_note_base_code" ref="tax_code_0206b"/>
-            <field name="credit_note_base_sign" eval="Decimal('-1')"/>
-            <field name="credit_note_tax_code" ref="tax_code_0206"/>
-            <field name="credit_note_tax_sign" eval="Decimal('-1')"/>
+            <field name="credit_note_base_code" ref="tax_code_0036"/>
+            <field name="credit_note_base_sign" eval="Decimal('1')"/>
+            <field name="credit_note_tax_code" ref="tax_code_0059"/>
+            <field name="credit_note_tax_sign" eval="Decimal('1')"/>
             <field name="account" ref="root"/>
         </record>
 
@@ -932,10 +932,10 @@ this repository contains the full copyright notices and license terms. -->
             <field name="credit_note_account" ref="44571"/>
             <field name="invoice_base_code" ref="tax_code_0151b"/>
             <field name="invoice_tax_code" ref="tax_code_0151"/>
-            <field name="credit_note_base_code" ref="tax_code_0151b"/>
-            <field name="credit_note_base_sign" eval="Decimal('-1')"/>
-            <field name="credit_note_tax_code" ref="tax_code_0151"/>
-            <field name="credit_note_tax_sign" eval="Decimal('-1')"/>
+            <field name="credit_note_base_code" ref="tax_code_0036"/>
+            <field name="credit_note_base_sign" eval="Decimal('1')"/>
+            <field name="credit_note_tax_code" ref="tax_code_0059"/>
+            <field name="credit_note_tax_sign" eval="Decimal('1')"/>
             <field name="account" ref="root"/>
         </record>
 
@@ -950,10 +950,10 @@ this repository contains the full copyright notices and license terms. -->
             <field name="credit_note_account" ref="44571"/>
             <field name="invoice_base_code" ref="tax_code_0150b"/>
             <field name="invoice_tax_code" ref="tax_code_0150"/>
-            <field name="credit_note_base_code" ref="tax_code_0150b"/>
-            <field name="credit_note_base_sign" eval="Decimal('-1')"/>
-            <field name="credit_note_tax_code" ref="tax_code_0150"/>
-            <field name="credit_note_tax_sign" eval="Decimal('-1')"/>
+            <field name="credit_note_base_code" ref="tax_code_0036"/>
+            <field name="credit_note_base_sign" eval="Decimal('1')"/>
+            <field name="credit_note_tax_code" ref="tax_code_0059"/>
+            <field name="credit_note_tax_sign" eval="Decimal('1')"/>
             <field name="account" ref="root"/>
         </record>
 
@@ -985,10 +985,10 @@ this repository contains the full copyright notices and license terms. -->
             <field name="credit_note_account" ref="44571"/>
             <field name="invoice_base_code" ref="tax_code_0151b"/>
             <field name="invoice_tax_code" ref="tax_code_0151"/>
-            <field name="credit_note_base_code" ref="tax_code_0151b"/>
-            <field name="credit_note_base_sign" eval="Decimal('-1')"/>
-            <field name="credit_note_tax_code" ref="tax_code_0151"/>
-            <field name="credit_note_tax_sign" eval="Decimal('-1')"/>
+            <field name="credit_note_base_code" ref="tax_code_0036"/>
+            <field name="credit_note_base_sign" eval="Decimal('1')"/>
+            <field name="credit_note_tax_code" ref="tax_code_0059"/>
+            <field name="credit_note_tax_sign" eval="Decimal('1')"/>
             <field name="account" ref="root"/>
         </record>
 
@@ -1003,10 +1003,10 @@ this repository contains the full copyright notices and license terms. -->
             <field name="credit_note_account" ref="44571"/>
             <field name="invoice_base_code" ref="tax_code_0150b"/>
             <field name="invoice_tax_code" ref="tax_code_0150"/>
-            <field name="credit_note_base_code" ref="tax_code_0150b"/>
-            <field name="credit_note_base_sign" eval="Decimal('-1')"/>
-            <field name="credit_note_tax_code" ref="tax_code_0150"/>
-            <field name="credit_note_tax_sign" eval="Decimal('-1')"/>
+            <field name="credit_note_base_code" ref="tax_code_0036"/>
+            <field name="credit_note_base_sign" eval="Decimal('1')"/>
+            <field name="credit_note_tax_code" ref="tax_code_0059"/>
+            <field name="credit_note_tax_sign" eval="Decimal('1')"/>
             <field name="account" ref="root"/>
         </record>
 
@@ -1020,10 +1020,10 @@ this repository contains the full copyright notices and license terms. -->
             <field name="credit_note_account" ref="44571"/>
             <field name="invoice_base_code" ref="tax_code_0201b"/>
             <field name="invoice_tax_code" ref="tax_code_0201"/>
-            <field name="credit_note_base_code" ref="tax_code_0201b"/>
-            <field name="credit_note_base_sign" eval="Decimal('-1')"/>
-            <field name="credit_note_tax_code" ref="tax_code_0201"/>
-            <field name="credit_note_tax_sign" eval="Decimal('-1')"/>
+            <field name="credit_note_base_code" ref="tax_code_0036"/>
+            <field name="credit_note_base_sign" eval="Decimal('1')"/>
+            <field name="credit_note_tax_code" ref="tax_code_0059"/>
+            <field name="credit_note_tax_sign" eval="Decimal('1')"/>
             <field name="account" ref="root"/>
         </record>
 
@@ -1037,10 +1037,10 @@ this repository contains the full copyright notices and license terms. -->
             <field name="credit_note_account" ref="44571"/>
             <field name="invoice_base_code" ref="tax_code_0201b"/>
             <field name="invoice_tax_code" ref="tax_code_0201"/>
-            <field name="credit_note_base_code" ref="tax_code_0201b"/>
-            <field name="credit_note_base_sign" eval="Decimal('-1')"/>
-            <field name="credit_note_tax_code" ref="tax_code_0201"/>
-            <field name="credit_note_tax_sign" eval="Decimal('-1')"/>
+            <field name="credit_note_base_code" ref="tax_code_0036"/>
+            <field name="credit_note_base_sign" eval="Decimal('1')"/>
+            <field name="credit_note_tax_code" ref="tax_code_0059"/>
+            <field name="credit_note_tax_sign" eval="Decimal('1')"/>
             <field name="account" ref="root"/>
         </record>
 
@@ -1054,10 +1054,10 @@ this repository contains the full copyright notices and license terms. -->
             <field name="credit_note_account" ref="44571"/>
             <field name="invoice_base_code" ref="tax_code_0105b"/>
             <field name="invoice_tax_code" ref="tax_code_0105"/>
-            <field name="credit_note_base_code" ref="tax_code_0105b"/>
-            <field name="credit_note_base_sign" eval="Decimal('-1')"/>
-            <field name="credit_note_tax_code" ref="tax_code_0105"/>
-            <field name="credit_note_tax_sign" eval="Decimal('-1')"/>
+            <field name="credit_note_base_code" ref="tax_code_0036"/>
+            <field name="credit_note_base_sign" eval="Decimal('1')"/>
+            <field name="credit_note_tax_code" ref="tax_code_0059"/>
+            <field name="credit_note_tax_sign" eval="Decimal('1')"/>
             <field name="account" ref="root"/>
         </record>
 
@@ -1071,10 +1071,10 @@ this repository contains the full copyright notices and license terms. -->
             <field name="credit_note_account" ref="44571"/>
             <field name="invoice_base_code" ref="tax_code_0105b"/>
             <field name="invoice_tax_code" ref="tax_code_0105"/>
-            <field name="credit_note_base_code" ref="tax_code_0105b"/>
-            <field name="credit_note_base_sign" eval="Decimal('-1')"/>
-            <field name="credit_note_tax_code" ref="tax_code_0105"/>
-            <field name="credit_note_tax_sign" eval="Decimal('-1')"/>
+            <field name="credit_note_base_code" ref="tax_code_0036"/>
+            <field name="credit_note_base_sign" eval="Decimal('1')"/>
+            <field name="credit_note_tax_code" ref="tax_code_0059"/>
+            <field name="credit_note_tax_sign" eval="Decimal('1')"/>
             <field name="account" ref="root"/>
         </record>
 
@@ -1088,10 +1088,10 @@ this repository contains the full copyright notices and license terms. -->
             <field name="credit_note_account" ref="44571"/>
             <field name="invoice_base_code" ref="tax_code_0100b"/>
             <field name="invoice_tax_code" ref="tax_code_0100"/>
-            <field name="credit_note_base_code" ref="tax_code_0100b"/>
-            <field name="credit_note_base_sign" eval="Decimal('-1')"/>
-            <field name="credit_note_tax_code" ref="tax_code_0100"/>
-            <field name="credit_note_tax_sign" eval="Decimal('-1')"/>
+            <field name="credit_note_base_code" ref="tax_code_0036"/>
+            <field name="credit_note_base_sign" eval="Decimal('1')"/>
+            <field name="credit_note_tax_code" ref="tax_code_0059"/>
+            <field name="credit_note_tax_sign" eval="Decimal('1')"/>
             <field name="account" ref="root"/>
         </record>
 
@@ -1105,10 +1105,10 @@ this repository contains the full copyright notices and license terms. -->
             <field name="credit_note_account" ref="44571"/>
             <field name="invoice_base_code" ref="tax_code_0100b"/>
             <field name="invoice_tax_code" ref="tax_code_0100"/>
-            <field name="credit_note_base_code" ref="tax_code_0100b"/>
-            <field name="credit_note_base_sign" eval="Decimal('-1')"/>
-            <field name="credit_note_tax_code" ref="tax_code_0100"/>
-            <field name="credit_note_tax_sign" eval="Decimal('-1')"/>
+            <field name="credit_note_base_code" ref="tax_code_0036"/>
+            <field name="credit_note_base_sign" eval="Decimal('1')"/>
+            <field name="credit_note_tax_code" ref="tax_code_0059"/>
+            <field name="credit_note_tax_sign" eval="Decimal('1')"/>
             <field name="account" ref="root"/>
         </record>
 
